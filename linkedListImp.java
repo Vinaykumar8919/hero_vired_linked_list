@@ -35,7 +35,8 @@ public class linkedListImp {
     }
 
     public static void main(String[] args) {
-        
+        System.out.println("excuted");
+
     }
 
 }

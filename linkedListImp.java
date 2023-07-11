@@ -31,11 +31,16 @@ public class linkedListImp {
             node.next=null;
             this.size+=1;
         }
-
+    }
+    public void addAtStarting(String i) {
+        Node n = new Node();
+        n.item = i;
+        n.next = this.head;
+        this.head = n;
     }
 
     public static void main(String[] args) {
-        System.out.println("excuted");
+        
 
     }
 

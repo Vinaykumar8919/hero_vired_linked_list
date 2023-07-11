@@ -7,10 +7,12 @@ class Node{
 public class linkedListImp {
     private int size =  0;
     private Node head;
-    public linkedListImp() {
+    public linkedListImp() {// constructor
         this.size = 0;
         this.head=null;
     }
+
+
     public void insertingNode(String i) {
         Node node = new Node();
         node.item = i;
@@ -30,6 +32,10 @@ public class linkedListImp {
             this.size+=1;
         }
 
+    }
+
+    public static void main(String[] args) {
+        
     }
 
 }
